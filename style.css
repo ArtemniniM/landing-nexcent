@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 0;
+  background-color: #f5f7fa;
+  width: 100%;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+  margin: auto;
+}
+header .container nav {
+  display: flex;
+  gap: 50px;
+}
+header .container nav p {
+  line-height: 24px;
+  color: #18191f;
+}
+header .container .buttons button:first-child {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #4caf4f;
+  margin-right: 14px;
+  border: none;
+  background-color: transparent;
+}
+header .container .buttons button:last-child {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #4caf4f;
+  border: none;
+  font: 500 14px "Inter";
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/* lessons */
+
+.lessons {
+  width: 100%;
+  background-color: #f5f7fa;
+}
+.lessons .container {
+  width: 1152px;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 104px;
+  padding: 200px 0 96px;
+  margin: auto;
+}
+.lessons .container .left {
+  width: 657px;
+}
+.lessons .container .left h2 {
+  font: 600 64px "Inter";
+  color: #4d4d4d;
+  line-height: 76px;
+}
+.lessons .container .left span {
+  font: 600 64px "Inter";
+  color: #4caf4f;
+  line-height: 76px;
+}
+.lessons .container .left p {
+  font: 400 16px "Inter";
+  line-height: 24px;
+  margin: 16px 0 72px;
+}
+.lessons .container .left button {
+  border-radius: 4px;
+  padding: 14px 32px;
+  font: 500 16px "Inter";
+  background-color: #4caf4f;
+  border: none;
+  font: 500 16px "Inter";
+  line-height: 24px;
+  color: #ffffff;
+}
+.lessons .container .left button:hover {
+  background-color: #419c44;
+}
+
+/* clients */
+
+.clients {
+  width: 1152px;
+  margin: auto;
+  padding: 40px 0;
+}
+.clients h3 {
+  font: 600 36px "Inter";
+  line-height: 44px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.clients p {
+  line-height: 24px;
+  text-align: center;
+  color: #717171;
+  margin: 8px 0 16px;
+}
+.clients .icons img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+.clients .icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 136px;
+}
+
+/* manage */
+
+.manage {
+  width: 1152px;
+  margin: auto;
+}
+.manage h2 {
+  font: 600 36px "Inter";
+  line-height: 44px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.manage p {
+  line-height: 24px;
+  text-align: center;
+  color: #717171;
+  margin: 8px 0 16px;
+}
+.manage .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 127px;
+}
+.manage .wrapper div {
+  width: 299px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px #abbed133;
+
+  padding: 24px 32px;
+}
+.manage .wrapper div h3 {
+  font: 700 28px "Inter";
+  line-height: 36px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.manage .wrapper div p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #717171;
+}
+
+/* pixelgrade */
+
+.pixelgrade {
+  width: 1152px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 49px;
+  padding: 42px 0 48px;
+}
+.pixelgrade .right {
+  width: 661px;
+}
+.pixelgrade .right h3 {
+  font: 600 36px "Inter";
+  line-height: 44px;
+  color: #4d4d4d;
+}
+.pixelgrade .right p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  padding: 16px 0 32px;
+  text-align: start;
+}
+.pixelgrade .right button {
+  width: 151px;
+  height: 52px;
+  border-radius: 4px;
+  padding: 14px 32px;
+  background-color: #4caf4f;
+  border: none;
+  font: 500 16px "Inter";
+  color: #ffffff;
+}
+
+/* helping */
+
+.helping {
+  max-width: 100%;
+  background-color: #f5f7fa;
+}
+.helping .wrapper {
+  width: 1152px;
+  background-color: #f5f7fa;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 0;
+  gap: 72px;
+}
+.helping .wrapper .left {
+  width: 540px;
+}
+.helping .wrapper .left h3 {
+  font: 600 36px "Inter";
+  line-height: 44px;
+  color: #4d4d4d;
+  padding-bottom: 8px;
+}
+.helping .wrapper .left span {
+  font: 600 36px "Inter";
+  line-height: 44px;
+  color: #4caf4f;
+}
+.helping .wrapper .right {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.helping .wrapper .right .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.helping .wrapper .right .row .items {
+  width: 255px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.helping .wrapper .right .row .items .text {
+  text-align: start;
+}
+.helping .wrapper .right .items img {
+  width: 48px;
+  height: 48px;
+  margin: 6px 16px 6px 0;
+}
+.helping .wrapper .right .items h4 {
+  font: 700 28px "Inter";
+  line-height: 36px;
+  color: #18191f;
+}
+.helping .wrapper .right .items p {
+  line-height: 24px;
+  color: #717171;
+}
+
+/* mobile  */
+
+.mobile {
+  width: 1152px;
+  margin: auto;
+  padding: 48px 0;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.mobile .right h3 {
+  font: 600 36px "Inter";
+  line-height: 44px;
+  color: #4d4d4d;
+}
+.mobile .right p {
+  padding: 16px 0 32px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+}
+.mobile .right button {
+  width: 151px;
+  height: 52px;
+  padding: 14px 32px;
+  border-radius: 4px;
+  background-color: #4caf4f;
+  border: none;
+  font: 500 16px "Inter";
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* tesla */
+
+.tesla {
+  max-width: 100%;
+  background-color: #f5f7fa;
+}
+.tesla .wrapper {
+  width: 1152px;
+  margin: auto;
+  padding: 32px 0;
+  background-color: #f5f7fa;
+  display: flex;
+  gap: 78px;
+}
+.tesla .wrapper .left img {
+  border-radius: 8px;
+  box-shadow: #abbed166;
+}
+.tesla .wrapper p {
+  font: 500 16px "Inter";
+  line-height: 24px;
+  color: #717171;
+}
+.tesla .wrapper h3 {
+  font: 600 20px "Inter";
+  line-height: 28px;
+  color: #4caf4f;
+  padding: 16px 0 8px;
+}
+.tesla .wrapper h4 {
+  line-height: 24px;
+  color: #89939e;
+  padding-bottom: 32px;
+}
+.tesla .wrapper .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.tesla .wrapper .icons .icons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 41px;
+}
+.tesla .wrapper .icons .arrow {
+  width: 223px;
+  display: flex;
+  align-items: center;
+}
+.tesla .wrapper .icons .arrow a {
+  text-decoration: none;
+  font: 600 20px "Inter";
+  line-height: 28px;
+  color: #4caf4f;
+}
+
+/* market */
+
+.market {
+  width: 1152px;
+  margin: auto;
+  padding: 48px 0 95px;
+}
+.market h2 {
+  font: 600 36px "Inter";
+  line-height: 44px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.market p {
+  line-height: 24px;
+  text-align: center;
+  color: #717171;
+  padding: 8px 0 16px;
+}
+.market .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 368px;
+  height: 366px;
+  position: relative;
+}
+.market .cards img {
+  border-radius: 8px;
+}
+.market .cards .window {
+  width: 317px;
+  height: 176px;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 8px 16px 0px #abbed166;
+  background-color: #f5f7fa;
+  position: absolute;
+  top: 190px;
+  left: 25px;
+}
+.market .cards .window p {
+  font: 600 20px "Inter";
+  line-height: 28px;
+  text-align: center;
+  color: #717171;
+}
+.market .cards .window .arrow {
+  width: 317px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.market .cards .window .arrow a {
+  font: 600 20px "Inter";
+  line-height: 28px;
+  color: #4caf4f;
+  text-decoration: none;
+}
